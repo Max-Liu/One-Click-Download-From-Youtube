@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "download Youtube",
+  "description": "This extension Used for download Vedio from Youtube for just one click",
+  "version": "0.1",
+  "content_scripts": [
+    {
+        "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+        "js": ["content.js"]
+    }
+  ]
+}
